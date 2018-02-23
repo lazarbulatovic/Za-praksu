@@ -1,0 +1,160 @@
+/*-------COLONE------*/
+#col1 {
+    position: relative;
+}
+
+#col2 {
+    position: relative;
+    left: 5%;
+    width: 90%;
+}
+
+#col3 {
+    position: relative;
+    left: 25%;
+    width: 70%;
+}
+#col4 {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #98cfe9;
+}
+/*------------BUTTONS--------------------*/
+.btn {
+    background-color: white;
+    box-shadow: none !important;
+    outline-style: none !important;
+}
+#up {
+    color: blue;
+    font-size: 35px;
+    transition: transform .2s;
+}
+
+#up:hover {
+    transform: scale(1.5);
+
+}
+
+#down {
+    color: red;
+    font-size: 35px;
+    transition: transform .2s;
+}
+
+#down:hover {
+    transform: scale(1.5);
+}
+
+#reply {
+    color: #98cfe9;
+    font-size: 30px;
+    border: 2px solid #98cfe9;
+    border-radius: 50%;
+    border-width: medium;
+    margin-top: 10px;
+}
+
+#reply:hover {
+    color: blue;
+    border-color: blue;
+}
+
+#send {
+    color: #98cfe9;
+    font-size: 35px;
+    border: 2px solid #98cfe9;
+    border-radius: 50%;
+    border-width: medium;
+}
+
+#send:hover {
+    color: blue;
+    border-color: blue;
+}
+
+#expend-more {
+    color: black;
+    font-size: 25px;
+    margin-top: 15px;
+    float: right;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#expend-more:hover {
+    transform: scale(1.5);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+/*----------CONTAINERS-------*/
+.container {
+    border: 1px solid #98cfe9;
+}
+
+#container2 {
+    position: relative;
+    left: 30px;
+    width: 95%;
+    margin-right: 35px;
+}
+
+#container3 {
+    position: relative;
+    left: 35px;
+    width: 90%;
+    margin-right: 35px;
+}
+/*-----AVATARS------*/
+.avatar {
+    color: black;
+    font-size: 15px;
+}
+
+.avatar img {
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+
+}
+/*-------KOMENTARI-----*/
+.komentar {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    bottom: 10px;
+    left: 5px;
+}
+
+.main-comment {
+    border: 1px solid #98cfe9;
+    padding: 10px 10px;
+    font-size: 13px;
+}
+
+.main-comment h2 {
+    font-size: 20px;
+}
+
+/*------OSTALO------*/
+.count {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.time {
+    float: right;
+    font-size: 9px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+/*--------------------------*/
